@@ -1,0 +1,7 @@
+pre-commit:
+  scripts:
+    "myscript":
+      runner: bash
+  commands:
+    test-command:
+      run: echo "Executing commands works"
